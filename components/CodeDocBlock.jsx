@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 // import clsx from "clsx";
-import styles from "../src/pages/CodeDocBlock.module.css";
+import styles from "./CodeDocBlock.module.css";
 
 export function DocBlock({ children }) {
   return <section className={styles.DocBlock}>{children}</section>;

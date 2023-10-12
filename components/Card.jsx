@@ -1,7 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
-import styles from "../src/pages/styles.module.css";
+import styles from "./styles.module.css";
 import Translate from "@docusaurus/Translate";
 
 function Card({ to, header, body, externalIcon = false }) {
